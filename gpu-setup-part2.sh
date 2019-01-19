@@ -19,6 +19,6 @@ sudo apt-get -y install zlib1g-dev
 python3.6 -m pip install --upgrade -r requirements.txt
 
 cp -r /usr/src/cudnn_samples_v7/ .
-cd ~/cudnn_samples_v7/mnistCUDNN
+cd cudnn_samples_v7/mnistCUDNN
 make clean && make
 ./mnistCUDNN
